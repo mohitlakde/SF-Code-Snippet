@@ -45,8 +45,41 @@ SF Snippet can load most comman commands and code which you use day to day as a 
 |  map    |   Map of String  |
 |  for    |   for Loop  |
 |  if     |   if Statement  |
-| ifelse    |   if else Statement  |
+| ifelse  |   if else Statement  |
 | soql    |   SOQL query assignment to List variable  |
+
+
+###### ___**JS Shortcuts**___
+|Prefix|Description|
+|--------|--------|
+|  clg   |   Log output to console   |
+|  cle   |   Log output to console  |
+|  clc   |   Log output to console  |
+|  func  |   Log output to console  |
+|  imap  |   Import Apex  |
+|  imcl  |   Import Custom Label  |
+|  imsr  |   Import Static Resource  |
+|  wrmt  |   Wire method code  |
+
+
+###### ___**HTML Shortcuts**___
+|Prefix|Description|
+|--------|--------|
+|  temt   |   template true Condition  |
+|  temf   |   template false Condition  |
+|  fore   |   template for each  |
+|  ite    |   template for each: Iterator  |
+|  lgin   |   lightning input  |
+|  lgic   |   lightning icon  |
+|  lgicon |   lightning button icon  |
+|  lgbutton  |   Button Brand  |
+
+
+###### ___**XML Shortcuts**___
+|Prefix|Description|
+|--------|--------|
+|  targets       |   Target Config : Target Tag  |
+|  targetConfig  |   Target Config : Design Attributes  |
 
 -----------------------------------------------------------------------------------------------------------
 
