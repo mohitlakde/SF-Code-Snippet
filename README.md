@@ -1,16 +1,24 @@
 # SF-Snippet README
 
-This is the README for your extension "SF-Snippet". After writing up a brief description, we recommend including the following sections.
+SF Snippet is the library which Salesforce Developers can use to speed up their development. Typing prefixes can load the entire command/syntax on editor.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+SF Snippet can load most comman commands and code which you use day to day as a developer. With every minimum configuration, you can start using this. 
 
-For example if there is an image subfolder under your extension project workspace:
+STEPS TO IMPORT SCRIPTS: 
+* Download Project from GitHub to your local machine. 
+* Navigate to classes folder in project. (You need to copy and paste code from these files)
+* Open Visual Studio Code --> Preferences --> User Snippets --> Select "New Global Snippets File" and provide name "ApexCode" and hit enter. 
+* Copy text from apexCode file from downloaded folder to newly created file.
+* Open Visual Studio Code --> Preferences --> User Snippets --> Select "New Global Snippets File" and provide name "javascriptCode" and hit enter. 
+* Copy text from "javascriptCode" file from downloaded folder to newly created file.
+* Open Visual Studio Code --> Preferences --> User Snippets --> Select "New Global Snippets File" and provide name "htmlCode" and hit enter. 
+* Copy text from "htmlCode" file from downloaded folder to newly created file.
+* Open Visual Studio Code --> Preferences --> User Snippets --> Select "New Global Snippets File" and provide name "xmlCode" and hit enter. 
+* Copy text from "xmlCode" file from downloaded folder to newly created file.
 
-\!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
