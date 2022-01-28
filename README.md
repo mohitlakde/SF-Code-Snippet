@@ -27,6 +27,27 @@ SF Snippet can load most comman commands and code which you use day to day as a 
 * Copy text from "xmlCode" file from downloaded folder to newly created file.
 
 
+
+## Shortcuts
+###### ___**Apex Shortcuts**___
+|Prefix|Description|
+|--------|--------|
+|  pub    |   Create Public Class   |
+|  pri    |   Create Private Class  |
+|  armc   |   Creates an Aura enabled method :cacheable  |
+|  arm    |   Creates an Aura enabled method  |
+|  arp    |   Creates an Aura enabled property  |
+|  sys    |   System debug  |
+|  com    |   Method level comments  |
+|  clscom |   Class level comments  |
+|  lst    |   List of String  |
+|  set    |   Set of String  |
+|  map    |   Map of String  |
+|  for    |   for Loop  |
+|  if     |   if Statement  |
+| ifelse    |   if else Statement  |
+| soql    |   SOQL query assignment to List variable  |
+
 -----------------------------------------------------------------------------------------------------------
 
 **Enjoy!**
