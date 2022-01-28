@@ -1,0 +1,138 @@
+{
+	/**
+		Place your snippets for apex here. 
+		Each snippet is defined under a snippet name and has a prefix, body and description. 
+		The prefix is what is used to trigger the snippet and the body will be expanded and inserted. 
+		Possible variables are: $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+		Placeholders with the same ids are connected.
+		Ex: Type prefix name in Apex class and see get same method autopopulate
+	 **/
+	"Public method": {
+		"prefix": "pub",
+		"body": [
+			"public void methodName() {",
+			"$0",
+			"}",
+		],
+		"description": "Create Public Class"
+	},
+	"Private method": {
+		"prefix": "pri",
+		"body": [
+			"private void methodName() {",
+			"$0",
+			"}",
+		],
+		"description": "Create Private Class"
+	},
+	"Aura enabled method": {
+		"prefix": "arm",
+		"body": [
+			"@AuraEnabled",
+			"public static string methodName() {",
+			"    return null;$0",
+			"}",
+		],
+		"description": "Creates an Aura enabled method"
+	},
+	"Aura enabled method cacheable": {
+		"prefix": "armc",
+		"body": [
+			"@AuraEnabled(cacheable = true)",
+			"public static string methodName() {",
+			"    return null;$0",
+			"}",
+		],
+		"description": "Creates an Aura enabled method"
+	},
+	"Aura enabled property": {
+		"prefix": "arp",
+		"body": [
+			"@AuraEnabled",
+			"public static string propertyName() { get; set; }",
+		],
+		"description": "Creates an Aura enabled property"
+	},
+	"System debug": {
+		"prefix": "sys",
+		"body": [
+			"System.debug('$0');",
+		],
+		"description": "System debug"
+	},
+	"Add method Comment": {
+		"prefix": "com",
+		"body": [
+			"/**",
+			" * @description  : $0",
+			" * @param param1 : ",
+			" * @return na",
+			" **/",
+		],
+		"description": "Method level comments"
+	},
+	"Add Class Comments": {
+		"prefix": "clscom",
+		"body": [
+			"/**",
+			" * @description : $0",
+			" * @author      : Mohit Lakde",
+			" * @date        : 02-27-2022",
+			" * @testClass:  : ",
+			" **/",
+		],
+		"description": "Class level comments"
+	},
+	"Initialize List": {
+		"prefix": "lst",
+		"body": [
+			"List<${1:String}> ${2:lstName} = new List<${1}>();"
+		],
+		"description": "List of String"
+	},
+	"Initialize Set": {
+		"prefix": "set",
+		"body": [
+			"Set<${1:String}> ${2:setName} = new Set<${1}>();"
+		],
+		"description": "Set of String"
+	},
+	"Initialize Map": {
+		"prefix": "map",
+		"body": [
+			"Map<${1:String}, ${2:String}> ${3:mapName} = new Map<${1}, ${2}>();"
+		],
+		"description": "Map of String"
+	},
+	"For Loop": {
+		"prefix": "for",
+		"body": [
+			"for (${2:element} ${3:iteratorName} : ${1:array}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "for Loop"
+	},
+	"if Condition": {
+		"prefix": "if",
+		"body": [
+			"if ($1condition) {\n    $0\n}"
+		],
+		"description": "if Statement"
+	},
+	"if_else Condition": {
+		"prefix": "ifelse",
+		"body": [
+			"if ($1condition) {\n    $0\n}else {\n",
+			"    $0\n}"
+		],
+		"description": "if else Statement"
+	},
+	"SOQL Apex": {
+		"prefix": "soql",
+		"body": [
+			"list<$1> $2 = [SELECT $3 $0 FROM $1];"
+		],
+		"description": "SOQL query assignment to List variable"
+	},
+}
